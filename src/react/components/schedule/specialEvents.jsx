@@ -28,7 +28,7 @@ const GameArena = () => {
 				<h2>甄選標準：</h2>
 				<ol>
 					<li>遊戲內容：是否創新、有趣、酷炫</li>
-					<li>遊戲所需時間：以5～10分鐘為佳</li>
+					<li>遊戲所需時間：以5～10分鐘佳</li>
 				</ol>
 			</section>
 		</div>
@@ -45,9 +45,9 @@ const Unconf = () => {
 			</section>
 			<section>
 				<h2>投稿方式</h2>
-				<p>SITCON Unconference 投稿在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的投稿表單。</p>
-				<p>在投稿截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
-				<p>投票結束後將會在 03/12 公布選上的 Unconference，我們期待你在年會的分享。</p>
+				<p>SITCON Unconference 徵選在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的徵選表單。</p>
+				<p>在徵選截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
+				<p>投票結束後將會在 03/12 公布選上的Conference，我們期待你在年會的分享。</p>
 			</section>
 			<section>
 				<h2>注意事項</h2>
@@ -97,7 +97,7 @@ const Angel = () => {
 				</ol>
 			</section>
 			<section>
-				<p>天使計畫負責人：小學生</p>
+				<p>天使計畫負責人：小學生 teresa860712@gmail.com 0988016743</p>
 			</section>
 		</div>
 	)
@@ -118,7 +118,7 @@ const CodePuzzle = () => {
 					<li>每個人手中都有部分程式碼片段，請尋找在其他人手中的其他片段組成正確解題程式</li>
 					<li>每段程式碼不可重複使用</li>
 					<li>尋找到足夠之程式碼後，請將正確的程式寫出並交給 compiler 進行編譯，若解題正確即可獲得獎品</li>
-					<li>有任何活動相關疑問皆可向 Debugger 詢問，Debugger 以解釋規則及活動本身相關問題為主，其他如：搜尋夥伴以及題目解法，我們鼓勵參與者主動向身邊夥伴交流討論</li>
+					<li>有任何活動相關疑問皆可向 Debugger 詢問，但除了規則及活動本身相關問題外，搜尋夥伴以及題目解決問題鼓勵參與者自行向身邊夥伴交流解決</li>
 					<li>祝大家遊戲愉快</li>
 				</ol>
 			</section>
@@ -152,7 +152,7 @@ const MovieTheater = () => {
 				<ul>
 					<li>放映地點： R0 國際會議廳</li>
 					<li>放映時間：19：30 - 20：42</li>
-					<li>預告片介紹：<a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank">{"https://www.youtube.com/watch?v=Y1MszXx6EK8"}</a></li>
+					<li><a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank" style="text-decoration:none;">{"預告片請點我"}</a></li>
 					<li>注意事項：中文字幕，播映 72 分鐘，場內禁止喧嘩，可自由進出。</li>
 				</ul>
 			</section>
@@ -169,12 +169,12 @@ const Communicate = () => {
 				<p>今年晚上特別安排各講者與會眾能獨立的交談時光，期待分享能激盪出更棒的點子。</p>
 			</section>
 			<section>
-				<h2>講者將依安排的時段出席。</h2>
+				<h2>講者將按時出席，欲交流者可查詢講者出席時間表</h2>
 				<p>時間：18:40-19:00 / 19:30-20:00 </p>
 				<p>地點：三樓右側沙發區</p>
 				<p>注意事項：</p>
 				<ul>
-					<li>講者可自由分享，盡情討論到最晚 20:40。</li>
+					<li>講者隨時都可自由分享，盡情討論到最晚 20:40。</li>
 					<li>講者出席時間表將擇日公告，還請稍候。</li>
 				</ul>
 			</section>
@@ -187,18 +187,22 @@ const BoF = () => {
 		<div>
 			<section>
 				<h2>Birds of a Feather</h2>
-				<p>SITCON 白天精彩的議程，讓你沒機會好好和同好交流嗎？參加 BoF 吧！</p>
-				<p>BoF (Birds of a Feather) 是一個主題導向的交流活動。</p>
+				<p>BoF (Birds of a Feather) 是一個主題導向的交流活動，BoF 即 Birds of a Feather。</p>
+				<p>這個慣用語是俗語「物以類聚 (Birds of a Feather)」的簡化，後來被延伸用於形容有共同喜好的人群聚的討論會，更多語源相關資訊可以參考 wiki。</p>
 				<p>舉凡各大社群聚會、同校同學會、技術同好的經驗分享會、社會議題的討論、各種愛好者聚會、甚至帶有喜感的主題，都非常歡迎！</p>
-				<p>如何開一個新主題呢？</p>
 				<ul>
-					<li>第一步，請填寫「發起人表單 (連結)」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「更動表單 (連結)」。</li>
-					<li>第二步，在「BoF 共筆 (連結)」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+					<li>當天設有 BoF 活動攤位，提供 BoF 活動相關諮詢</li>
+					<li>BoF 活動時間為 18：40～20：40</li>
 				</ul>
 			</section>
 			<section>
-				<h2>如何報名一個主題呢？</h2>
-				<p>只要對某個主題感興趣，就可以在主題說明下方填寫你的大名。SITCON 年會當天，設有 BoF 說明攤位，提供會眾 BoF 活動相關諮詢。BoF 活動將於 SITCON 年會當天 18：40 正式登場！一邊享用大會準備的食物，一邊和同好暢談交流吧。</p>
+				<h3>發起一個新主題吧！</h3>
+				<ul>
+					<li>第一步，請填寫「<a href="https://goo.gl/pWGZne" target="blank" style="text-decoration:none;">{"發起人表單"}</a>」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「<a href="https://goo.gl/fwAfu8" target="blank" style="text-decoration:none;">{"更動表單"}</a>」。</li>
+					<li>第二步，在「<a href="https://goo.gl/VCJVG6" target="blank" style="text-decoration:none;">{"BoF 共筆"}</a>」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+				</ul>
+				<h3>來報名 BoF 吧！</h3>
+				<p>到「<a href="https://goo.gl/VCJVG6" target="blank" style="text-decoration:none;">{"BoF 共筆"}</a>」文件找找有哪些感興趣的主題吧，接下來就是在主題說明下方留下大名就可以囉。準備一邊享用大會的食物，一邊和同好暢談交流吧。</p>
 			</section>
 		</div>
 	)
@@ -223,3 +227,4 @@ export default class extends Component {
 		)
 	}
 }
+
